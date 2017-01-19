@@ -1,0 +1,10 @@
+#Chapter 5 notes
+- change any directory into a repository tracked by git by typing **git init**, when you are in that directory
+- **git status**: will list all filesand subdirectories in your directory as untracked
+- you have to add explicitly which files you want to have tracked with **git add**
+- if you make changes in a file that is tracked git status will tell you and ask, if you want to stage these changes for commit
+- staging a changed file for commit is done with the same git add command as you initialize the tracking!: **git add**
+- you commit your staged changed file (or all files -a) by typing **git commit**; -m "some text" adds a message to collaborators these messages should explain what changes were made.
+- comitting is like tking a snapshot of the project
+- if you made changes to a file and did not add it (staged it) **git diff** will show you the differences between your file in the working directroy and the last staged version of it
+- 
